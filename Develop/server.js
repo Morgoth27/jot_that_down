@@ -5,6 +5,9 @@ const path = require('path');
 const PORT = 3001;
 const app = express();
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 app.use(express.static('public'));
 
 app.get('/notes', (req, res) =>
@@ -21,7 +24,7 @@ app.get('/notes', (req, res) =>
 
 app.post('/api/notes', (req, res) => 
 {
-    res.json('testing')
+    res.json('a message')
 })
 
 app.listen(PORT, () =>
