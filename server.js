@@ -59,7 +59,7 @@ app.post('/api/notes', (req, res) => {
 });
 
 app.delete('/api/notes/:id', (req, res) => {
-    console.log(req.params.id);
+    console.log('Note ' + req.params.id + ' has been deleted.');
     read().then((notes) => {
         let readNotes = JSON.parse(notes) || [];
 

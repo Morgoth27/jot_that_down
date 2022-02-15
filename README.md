@@ -2,7 +2,7 @@
 An application called Note Taker that can be used to write and save notes
 
 
-## Acceptance Criteria
+## Description
 
 ```
 GIVEN a note-taking application
@@ -21,3 +21,14 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 List items may be DELETED by clicking on the trash can button.
 ```
+
+-------------------------------
+## Video of application in use:
+
+[![Click to watch video](./photos/screengrab_thumb.png)](https://watch.screencastify.com/v/AfWMimRIK9uoYKqIS8eC)
+
+-------------------------------
+## Photos of application:
+
+[![Screengrab 1](./photos/screenshot1.PNG)]
+[![Screengrab 2](./photos/screenshot2.PNG)]
